@@ -144,7 +144,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	body, input, select, textarea {
@@ -288,25 +288,26 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #212931;
+		color: #ffffff;
 	}
 
+	/* elements icon color change */
 	a {
-		color: #212931;
+		color: #ffffff;
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: rgb(7, 67, 79) !important;
 		}
 
 	strong, b {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #212931;
+		color: #ffffff;
 	}
 
 	blockquote {
@@ -314,7 +315,7 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(220, 220, 220, 0.25);
+		background: rgb(7, 67, 79);
 		border-color: #eeeeee;
 	}
 
@@ -2206,8 +2207,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 2px #ffffff;
+		color: #ffffff !important;
 	}
 
 		input[type="submit"]:hover,
@@ -2215,8 +2216,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px rgb(7, 67, 79);
+			color: rgb(7, 67, 79) !important;
 		}
 
 		input[type="submit"].primary,
@@ -2224,7 +2225,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: rgb(105, 139, 126);
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2234,7 +2235,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: rgb(7, 67, 79);
 			}
 
 /* Form */
@@ -2475,7 +2476,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #212931;
+		color: #ffffff
 	}
 
 	input[type="text"],
@@ -2483,7 +2484,7 @@ input, select, textarea {
 	input[type="email"],
 	select,
 	textarea {
-		border-color: #eeeeee;
+		border-color: #ffffff;
 	}
 
 		input[type="text"]:focus,
@@ -2491,7 +2492,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: rgb(7, 67, 79);
 		}
 
 	select {
@@ -2499,17 +2500,17 @@ input, select, textarea {
 	}
 
 		select option {
-			background-color: #ffffff;
-			color: #212931;
+			background-color: rgb(7, 67, 79);
+			color: #ffffff;
 		}
 
 	.select-wrapper:before {
-		color: #eeeeee;
+		color: #ffffff;
 	}
 
 	input[type="checkbox"] + label,
 	input[type="radio"] + label {
-		color: #212931;
+		color: #ffffff;
 	}
 
 		input[type="checkbox"] + label:before,
@@ -2526,27 +2527,27 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
+		border-color: rgb(7, 67, 79);
 	}
 
 	::-webkit-input-placeholder {
-		color: #909498 !important;
+		color: #ffffff !important;
 	}
 
 	:-moz-placeholder {
-		color: #909498 !important;
+		color: #ffffff !important;
 	}
 
 	::-moz-placeholder {
-		color: #909498 !important;
+		color: #ffffff !important;
 	}
 
 	:-ms-input-placeholder {
-		color: #909498 !important;
+		color: #ffffff !important;
 	}
 
 	.formerize-placeholder {
-		color: #909498 !important;
+		color: #ffffff !important;
 	}
 
 /* Icon */
@@ -2890,7 +2891,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: rgb(7, 67, 79);
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2898,7 +2899,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px rgb(7, 67, 79);
 	}
 
 /* Section/Article */
@@ -3187,32 +3188,32 @@ input, select, textarea {
 			}
 
 		}
-
+/* border color to page number */
 	.pagination a, .pagination span {
-		border-color: #eeeeee;
+		border-color: #ffffff;
 	}
-
+/* number color to page number */
 	.pagination a {
-		color: #212931 !important;
+		color: #ffffff !important;
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: rgb(7, 67, 79) !important;
+			border-color: rgb(7, 67, 79);
 			z-index: 1;
 		}
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: rgb(7, 67, 79);
 			}
 
 		.pagination a.active {
-			background-color: #eeeeee;
+			background-color: rgb(105, 139, 126);
 		}
 
 	.pagination span {
-		color: #eeeeee;
+		color: #ffffff;
 	}
 
 /* Wrapper */
@@ -3234,7 +3235,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/green.jpg");
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/blue.png");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3324,7 +3325,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: rgb(148, 188, 172) !important;
 			}
 
 		#intro strong, #intro b {
@@ -3363,8 +3364,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px rgb(148, 188, 172);
+				color: rgb(148, 188, 172) !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3382,7 +3383,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: rgb(148, 188, 172);
 				}
 
 		#intro h1 {
@@ -3533,7 +3534,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: rgb(148, 188, 172) !important;
 			}
 
 		#header strong, #header b {
@@ -3575,10 +3576,10 @@ input, select, textarea {
 			text-transform: uppercase;
 			visibility: visible;
 		}
-
+/* logo color */
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: rgb(148, 188, 172) !important;
+				color: rgb(148, 188, 172) !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3631,8 +3632,9 @@ input, select, textarea {
 			border-top-color: #ffffff;
 		}
 
+/* socials top logo color */
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: rgb(148, 188, 172);
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3640,7 +3642,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px rgb(148, 188, 172);
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3654,7 +3656,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: rgb(148, 188, 172) !important;
 			}
 
 		#nav strong, #nav b {
@@ -3720,7 +3722,7 @@ input, select, textarea {
 						color: inherit !important;
 						background-color: rgba(255, 255, 255, 0.1);
 					}
-
+/* "projekter" */
 				#nav ul.links li.active {
 					background-color: #ffffff;
 				}
@@ -3730,7 +3732,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: rgb(148, 188, 172) !important;
 						}
 
 		#nav ul.icons {
@@ -3756,7 +3758,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: rgb(148, 188, 172);
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
@@ -3968,13 +3970,13 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #717981;
+			color: hsl(210, 7%, 47%);
 			border-bottom-color: rgba(113, 121, 129, 0.5);
 		}
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: rgb(148, 188, 172) !important;
 			}
 
 		#footer strong, #footer b {
@@ -4017,8 +4019,9 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+	/* "send message box color */
+				box-shadow: inset 0 0 0 2px rgb(148, 188, 172);
+				color: rgb(148, 188, 172) !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4036,7 +4039,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: rgb(148, 188, 172);
 				}
 
 		#footer label {
@@ -4056,7 +4059,7 @@ input, select, textarea {
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: rgb(148, 188, 172);
 			}
 
 		#footer select {
@@ -4091,7 +4094,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: rgb(148, 188, 172);
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4119,15 +4122,16 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: rgb(148, 188, 172);
 		}
 
 		#footer ul.icons.alt li .icon:before {
 			box-shadow: inset 0 0 0 2px #e2e2e2;
 		}
 
+	/* social icon outer ring */
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px rgb(148, 188, 172);
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4167,14 +4171,14 @@ input, select, textarea {
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: rgb(148, 188, 172) !important;
+				border-color: rgb(148, 188, 172);
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a,
 				#footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: rgb(148, 188, 172);
 				}
 
 			#footer .pagination a.active {
@@ -4411,7 +4415,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: rgb(148, 188, 172) !important;
 			}
 
 		#copyright strong, #copyright b {
